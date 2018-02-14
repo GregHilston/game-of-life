@@ -58,11 +58,11 @@
     },
 
     // Initial state
-    initialState : '[{"39":[110]},{"40":[112]},{"41":[109,110,113,114,115]}]',
+    initialState : '[]',
 
     // Trail state
     trail : {
-      current: true,
+      current: false,
       schedule : false
     },
 
@@ -99,9 +99,9 @@
       schemes : [
       // { columns : 100, rows : 48, cellSize : 8 },
       {
-        columns : 180,
-        rows : 86,
-        cellSize : 4
+        columns : 100,
+        rows : 50,
+        cellSize : 8
       },
 
       {
